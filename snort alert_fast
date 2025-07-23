@@ -1,0 +1,124 @@
+--------------------------------------------------
+Packet Statistics
+--------------------------------------------------
+daq
+                 received: 2080
+                 analyzed: 2079
+              outstanding: 1
+          outstanding_max: 1
+                    allow: 2079
+                 rx_bytes: 120900
+--------------------------------------------------
+codec
+                    total: 2079         (100.000%)
+                 discards: 4            (  0.192%)
+                      arp: 46           (  2.213%)
+                      eth: 2079         (100.000%)
+                    icmp6: 5            (  0.241%)
+                     igmp: 5            (  0.241%)
+                     ipv4: 2021         ( 97.210%)
+                     ipv6: 12           (  0.577%)
+            ipv6_hop_opts: 5            (  0.241%)
+                      tcp: 2005         ( 96.441%)
+                      udp: 18           (  0.866%)
+--------------------------------------------------
+Module Statistics
+--------------------------------------------------
+appid
+                  packets: 2029
+        processed_packets: 2028
+          ignored_packets: 1
+           total_sessions: 1009
+       service_cache_adds: 6
+             bytes_in_use: 912
+             items_in_use: 6
+--------------------------------------------------
+arp_spoof
+                  packets: 46
+--------------------------------------------------
+back_orifice
+                  packets: 17
+--------------------------------------------------
+binder
+              raw_packets: 47
+                new_flows: 1009
+                 inspects: 1056
+--------------------------------------------------
+detection
+                 analyzed: 2079
+                   alerts: 8
+             total_alerts: 8
+                   logged: 8
+--------------------------------------------------
+port_scan
+                  packets: 2033
+                 trackers: 21
+--------------------------------------------------
+stream
+                    flows: 1009
+             total_prunes: 1
+idle_prunes_proto_timeout: 1
+       tcp_timeout_prunes: 1
+--------------------------------------------------
+stream_icmp
+                 sessions: 1
+                      max: 1
+                  created: 1
+                 released: 1
+--------------------------------------------------
+stream_ip
+                 sessions: 1
+                      max: 1
+                  created: 1
+                 released: 1
+              total_bytes: 80
+--------------------------------------------------
+stream_tcp
+                 sessions: 1001
+                      max: 1001
+                  created: 1001
+                 released: 1001
+             instantiated: 1001
+                   setups: 1001
+             syn_trackers: 1000
+            data_trackers: 1
+              segs_queued: 1
+            segs_released: 1
+                     syns: 1000
+                   resets: 1000
+                 max_segs: 1
+                max_bytes: 46
+--------------------------------------------------
+stream_udp
+                 sessions: 6
+                      max: 6
+                  created: 6
+                 released: 6
+              total_bytes: 2068
+--------------------------------------------------
+tcp
+        bad_tcp4_checksum: 3
+--------------------------------------------------
+udp
+        bad_udp4_checksum: 1
+--------------------------------------------------
+wizard
+                udp_scans: 6
+               udp_misses: 6
+--------------------------------------------------
+Appid Statistics
+--------------------------------------------------
+detected apps and services
+              Application: Services   Clients    Users      Payloads   Misc       Referred  
+                  unknown: 4          0          0          0          0          0         
+--------------------------------------------------
+Summary Statistics
+--------------------------------------------------
+process
+                  signals: 1
+--------------------------------------------------
+timing
+                  runtime: 00:01:52
+                  seconds: 112.468383
+                 pkts/sec: 18
+o")~   Snort exiting
